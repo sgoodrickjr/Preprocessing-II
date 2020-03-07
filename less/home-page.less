@@ -53,6 +53,12 @@
     display: flex;
     justify-content: space-between;
     
+    @media @mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
     .destination {
       width: 30%;
@@ -60,6 +66,7 @@
 
       .btn {
         .buttons(@white, @padding);
+        
       }
     }
   }

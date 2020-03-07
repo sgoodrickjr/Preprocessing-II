@@ -207,8 +207,8 @@ a {
   justify-content: space-evenly;
   align-items: center;
   font-size: 14px;
-  margin-left: 50%;
-  padding-right: 5%;
+  margin-left: 15%;
+  margin-right: 5%;
 }
 .footer {
   width: 100%;
@@ -262,6 +262,14 @@ a {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .home .content-pick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .home .content-pick .destination {
   width: 30%;
